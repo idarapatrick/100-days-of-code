@@ -33,11 +33,11 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.") 
 
-choice1 = input("left or right? ").lower()
+choice1 = input("left or right?\n ").lower()
 if choice1 == "left":
-  choice2 = input("swim or wait? ").lower()
+  choice2 = input("swim or wait?\n ").lower()
   if choice2 == "wait":
-    choice3 = input("which door? red, blue or yellow? ").lower()
+    choice3 = input("which door? red, blue or yellow?\n ").lower()
     if choice3 == "yellow":
       print("You win!")
     elif choice3 == "red":
